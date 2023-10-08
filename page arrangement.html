@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>page arrangement</title>
+	<style type="text/css">
+		*{
+			margin: 0%;
+			padding: 0%;
+			overflow: hidden;
+		}
+		body
+		{
+			display: flex;
+		}
+		.left{
+			background-color: darkred;
+			height: 100vh;
+			width: 70%;
+
+		}
+		.right{
+			background-color: whitesmoke;
+			height: 100vh;
+			width: 30%;
+			background-image: url(image.avif);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: scroll;
+		}
+		.bottom1{
+			width: 100%;
+			height: 10vh;
+			background-color: yellow;
+			position: absolute;
+			bottom: -6%;
+		}
+	</style>
+</head>
+<body>
+	<div class="left">
+	</div>
+	<div class="right">
+	</div>
+	<div class="bottom1">
+	</div>
+
+</body>
+</html>
